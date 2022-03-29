@@ -1,8 +1,8 @@
-FILE_NAMES=main.c
-COMPLIER=gcc
+FILE_NAME=main.cpp
+TYPE_COMPILER=g++
 
 bin:
-	$(COMPLIER) $(FILE_NAMES) -o $@
+	$(TYPE_COMPILER) $(FILE_NAME) -o $@
 
 .PHONY: run clean
 
